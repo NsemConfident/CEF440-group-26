@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_add_to_home_screen_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/baseline_add_to_photos_24"
+        android:title="@string/gallery" />
+    <item
+        android:id="@+id/nav_upload"
+        android:icon="@drawable/baseline_add_a_photo_24"
+        android:title="@string/upload_image" />
+    <item
+        android:id="@+id/nav_inbox"
+        android:icon="@drawable/baseline_all_inbox_24"
+        android:title="@string/inbox" />
+</menu>

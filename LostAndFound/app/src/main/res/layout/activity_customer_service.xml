@@ -1,0 +1,66 @@
+<!-- res/layout/activity_customer_service.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/backbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layoutDirection="ltr">
+        <ImageButton
+            android:id="@+id/backabout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_arrow_back_24"
+            />
+        <TextView
+            android:id="@+id/textbackabout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Back"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/backbutton"
+        android:text="Customer Service"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="16dp"
+        android:hint="Write your message here"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp" />
+
+    <Button
+        android:id="@+id/buttonEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextMessage"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Send Email" />
+
+    <Button
+        android:id="@+id/buttonWhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonEmail"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Send via WhatsApp" />
+
+</RelativeLayout>

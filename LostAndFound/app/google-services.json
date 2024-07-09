@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "48674184273",
+    "firebase_url": "https://findobject-64625-default-rtdb.firebaseio.com",
+    "project_id": "findobject-64625",
+    "storage_bucket": "findobject-64625.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48674184273:android:f2027d475b4055e0d22c70",
+        "android_client_info": {
+          "package_name": "com.example.findob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk28J8NTKPpJiV8msZ96YpIfw-MCY6yd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48674184273:android:1bb42cdf69807e59d22c70",
+        "android_client_info": {
+          "package_name": "com.example.lostandfound"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk28J8NTKPpJiV8msZ96YpIfw-MCY6yd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

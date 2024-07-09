@@ -1,0 +1,52 @@
+<!-- res/layout/activity_terms_and_conditions.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:id="@+id/backbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layoutDirection="ltr">
+        <ImageButton
+            android:id="@+id/backabout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_arrow_back_24"
+            />
+        <TextView
+            android:id="@+id/textbackabout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Back"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Terms and Conditions"
+        android:textSize="24sp"
+        android:layout_below="@id/backbutton"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="16dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textViewTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to our Missing Object Retrieval App. By using our app, you agree to the following terms and conditions:\n\n1. Introduction\nWelcome to our Missing Object Retrieval App. By using our app, you agree to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern our relationship with you in relation to this app.\n\n2. Use of the App\nYou agree to use the app only for lawful purposes. You must not use the app in any way that breaches any applicable local, national or international law or regulation.\n\n3. Intellectual Property Rights\nAll intellectual property rights in the app and the materials on or accessible via it belong to us or our licensors. The app and the materials on or accessible via it, and the intellectual property rights therein, may not be copied, distributed, published, licensed, used or reproduced in any way (except to the extent strictly necessary for, and for the purposes of, accessing and using the app).\n\n4. Privacy\nYour use of the app is also governed by our privacy policy, which can be found at [insert privacy policy URL].\n\n5. Limitation of Liability\nWe will not be liable for any loss or damage (in contract, negligence or otherwise) where:\n(a) There is no breach of a legal duty of care owed to you by us;\n(b) The loss or damage is not a reasonably foreseeable result of any such breach; or\n(c) Any loss or damage or increase in loss or damage results from a breach by you of these terms and conditions.\n\n6. Changes to These Terms\nWe reserve the right to make changes to these terms at any time. You should therefore check the terms whenever you use the app. Your continued use of the app will signify your acceptance of the updated terms.\n\n7. Contact Information\nIf you have any questions about these terms, please contact us at contact@missingobjectapp.com."
+            android:textSize="16sp" />
+    </ScrollView>
+
+</RelativeLayout>
